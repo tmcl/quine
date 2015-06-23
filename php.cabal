@@ -1,0 +1,9 @@
+Name:          quine
+Build-Type:    Simple
+Version:       0.0
+Cabal-Version: >=1.2
+
+Executable quine
+   Main-is:          hs.hs
+   Build-Depends:    base>=3, MissingH
+   Ghc-options:       -Wall
